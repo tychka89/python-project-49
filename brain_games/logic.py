@@ -15,7 +15,8 @@ def logic(game_rules, set_game):
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
         if user_answer != wright_answer:
-            print(f'{user_answer} is wrong answer ;(. Correct answer was {wright_answer}.')
+            print(f'{user_answer} is wrong answer ;(. \
+            Correct answer was {wright_answer}.')
             print(f'Let\'s try again, {name}!')
             return
         print('Correct!')
