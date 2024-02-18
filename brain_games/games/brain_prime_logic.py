@@ -14,6 +14,7 @@ def prime(num):
             return False
     return True
 
+
 def set_game():
     question = randint(1, 100)
     wright_answer = 'yes' if prime(question) else 'no'
